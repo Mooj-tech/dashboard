@@ -1,123 +1,73 @@
-**Mooj-Tech.com – AI-Powered Logistics & Supply Chain Dashboard (React Frontend)**
+# Welcome to your Lovable project
 
-Goal:
-Design and develop a premium, interactive React dashboard for Mooj-Tech.com — an AI-powered logistics & supply chain platform that predicts and visualizes global shipping risks.
-Frontend-only (mock data), responsive, smooth animations, and high-end visual design.
+## Project info
 
-🔧 Tech Stack
+**URL**: https://lovable.dev/projects/8d13e0dd-a4aa-4f96-a612-4d93f0888cda
 
-React (Vite or CRA)
-React Router DOM – for routing
-Tailwind CSS – for layout, colors, and responsive design
-Framer Motion – for animations
-Lucide-React Icons – for UI icons
-Recharts / React Charts – for data visualizations
-Context API or Zustand – for mock state handling
+## How can I edit this code?
 
-🎨 Design & Branding
-Primary Color: #00bfff
-Secondary Color: #000000
-Accent: soft gray background and white surfaces
-Typography: Inter / Poppins
-Theme: Light mode only, clean and professional
+There are several ways of editing your application.
 
-🔐 Auth Pages (Login / Signup)
+**Use Lovable**
 
-Layout:
-Split-screen view:
-Left side: full-height image (AI logistics / shipping routes / cargo map) with dark overlay gradient
-Right side: form container with subtle card design and animated transitions
+Simply visit the [Lovable Project](https://lovable.dev/projects/8d13e0dd-a4aa-4f96-a612-4d93f0888cda) and start prompting.
 
-Login Form:
-Fields: Email, Password
-“Forgot Password?” link
+Changes made via Lovable will be committed automatically to this repo.
 
-Buttons:
-Login (primary color #00bfff)
-Login with Google (outlined button with Google icon + subtle hover animation)
-Footer: “Don’t have an account? Sign up” link
+**Use your preferred IDE**
 
-Signup Form:
-Fields: Name, Email, Password, Confirm Password
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-Buttons:
-Create Account (primary)
-Sign up with Google (outlined with icon)
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-Footer: “Already have an account? Login” link
-Animations:
-Slide-in forms
-Input focus effects
-Framer Motion transitions between login and signup routes
+Follow these steps:
 
-🧭 Dashboard Layout
-Structure:
-Sidebar: Persistent, collapsible, with icons + labels
-Header: Fixed top bar with search, notifications, and profile dropdown
-Main Content: Animated route area
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-Sidebar Items:
-Overview
-Route Risks
-Supplier Insights
-Predictive Alerts
-Analytics
-Settings
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-Each section should include interactive cards, charts, or data components.
+# Step 3: Install the necessary dependencies.
+npm i
 
-📊 Dashboard Pages (6 Interactive Sections)
-1️⃣ Overview
-KPI Cards (Total Routes, Active Alerts, Avg Risk Score)
-World map mockup (markers animated with Framer Motion)
-Line chart (Recharts) showing risk trends
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-2️⃣ Route Risks
-Interactive table with risk color codes
-Filters: Region, Carrier, Risk Level
-Hover animation on table rows
-Mini charts per route (trend indicator)
+**Edit a file directly in GitHub**
 
-3️⃣ Supplier Insights
-Supplier cards with risk bars
-Sorting and filtering
-Animated score bars
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-4️⃣ Predictive Alerts
-List of alert cards (animated in/out)
-Mock “Acknowledge Alert” button
-Alert level indicators (low, medium, high)
+**Use GitHub Codespaces**
 
-5️⃣ Analytics
-Historical trend charts (line + bar charts)
-Dropdown for time range (7/30/90 days)
-Smooth transitions between chart types
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-6️⃣ Settings
-Profile mock form
-Notification toggles
-Theme switch (simulate only)
-Logout button (mock action)
+## What technologies are used for this project?
 
-🪄 Animations & Interactivity
-Page transitions (Framer Motion fade/slide)
-Button hover scaling
-Animated loading skeletons for mock data
-Sidebar collapse/expand animation
-Profile dropdown with animated menu
-Toast notification mock (for success/error states)
+This project is built with:
 
-🧠 Optional UI Add-ons
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Floating AI Chatbot icon (bottom-right, static UI only)
-Mock “Predict Risk” button → fake loading + success animation
-Gradient background wave at hero header (optional visual flair)
+## How can I deploy this project?
 
-✅ Deliverables
+Simply open [Lovable](https://lovable.dev/projects/8d13e0dd-a4aa-4f96-a612-4d93f0888cda) and click on Share -> Publish.
 
-Fully responsive React dashboard frontend
-Functional navigation between all routes
-Login/Signup pages with Google Sign-In button (UI only, no backend)
-Light theme using #00bfff (primary) and #000000 (secondary)
-Six interactive dashboard pages with animations
-Clean, enterprise-grade UI
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
